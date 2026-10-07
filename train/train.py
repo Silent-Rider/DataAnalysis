@@ -10,7 +10,6 @@ def fit_model(model: Model,
               val_dataset,
               epochs: int,
               model_name: str,
-              initial_epoch: int = 0,
               logging: bool = False):
     callbacks = []
     if logging:
@@ -22,7 +21,6 @@ def fit_model(model: Model,
     history = model.fit(train_dataset,
                         validation_data=val_dataset,
                         epochs=epochs,
-                        callbacks=callbacks,
-                        initial_epoch=initial_epoch)
+                        callbacks=callbacks)
 
     return history.history

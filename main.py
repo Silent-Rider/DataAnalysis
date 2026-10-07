@@ -34,12 +34,12 @@ if __name__ == "__main__":
 
     num_classes = len([d for d in Path(image_dir).iterdir() if d.is_dir()])
 
-    for name, (reg_type, is_dropout, strength) in CONFIGS.items():
+    for name, (reg_type, is_dropout, lambdas) in CONFIGS.items():
         model = create_classification_model(base_model,
                                             num_classes,
                                             reg_type,
                                             is_dropout=is_dropout,
-                                            strength=strength,
+                                            lambdas=lambdas,
                                             learning_rate=1e-3)
 
         history = fit_model(model,

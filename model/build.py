@@ -22,16 +22,16 @@ def create_classification_model(deep_model,
                                 num_classes: int,
                                 reg_type: str=None,
                                 is_dropout: bool=False,
-                                strength=None,
+                                lambdas=None,
                                 learning_rate: float = 1e-3) -> Model:
     keras.utils.set_random_seed(42)
     def make_reg():
         if reg_type == "L1":
-            return regularizers.l1(strength)
+            return regularizers.l1(lambdas)
         if reg_type == "L2":
-            return regularizers.l2(strength)
+            return regularizers.l2(lambdas)
         if reg_type == "ElasticNet":
-            l1, l2 = strength
+            l1, l2 = lambdas
             return regularizers.l1_l2(l1=l1, l2=l2)
         return None
 
