@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f77d8469-7675-47c7-837b-36fb5ff34035" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/DataAnalysis.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f77d8469-7675-47c7-837b-36fb5ff34035" name="Changes" comment="Removed metadata">
+      <change beforePath="$PROJECT_DIR$/artifacts/logs/stub" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifacts/models/stub" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifacts/plots/stub" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +18,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Silent-Rider/DataAnalysis.git",
+    "accountId": "abc84fa8-d35d-4786-9b62-c54d017505ed"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -60,11 +64,41 @@
       <option name="presentableId" value="Default" />
       <updated>1791391295067</updated>
       <workItem from="1791391296092" duration="132000" />
-      <workItem from="1791391613019" duration="6810000" />
+      <workItem from="1791391613019" duration="7126000" />
     </task>
+    <task id="LOCAL-00001" summary="Initializing">
+      <option name="closed" value="true" />
+      <created>1791398608840</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1791398608840</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initializing">
+      <option name="closed" value="true" />
+      <created>1791398623616</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1791398623616</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Removed metadata">
+      <option name="closed" value="true" />
+      <created>1791398668048</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1791398668048</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initializing" />
+    <MESSAGE value="Removed metadata" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed metadata" />
   </component>
 </project>

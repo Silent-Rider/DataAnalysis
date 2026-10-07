@@ -4,6 +4,9 @@ from model.build import create_classification_model, create_mobile_net_v3_large
 from process.data_gen import get_classification_train_val_datasets
 from train.train import fit_model
 
+Path("artifacts/plots").mkdir(parents=True, exist_ok=True)
+Path("artifacts/logs").mkdir(parents=True, exist_ok=True)
+
 CONFIGS = {
     "Basic":        (None,         False,   None),
     "L1":           ("L1",         False,   1e-5),
@@ -16,9 +19,6 @@ CONFIGS = {
 }
 
 if __name__ == "__main__":
-    Path("artifacts/plots").mkdir(parents=True, exist_ok=True)
-    Path("artifacts/logs").mkdir(parents=True, exist_ok=True)
-
     image_size = (256, 256)
     image_dir = "dataset"
 
