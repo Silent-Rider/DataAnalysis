@@ -1,0 +1,6 @@
+	Epoch 15/15
+accuracy: 0.9939 - val_accuracy: 0.9067
+f1_score: 0.9939 - val_f1_score: 0.9060
+loss: 0.1262 - val_loss: 0.5110
+total time: 2 minutes 6.92 seconds
+
