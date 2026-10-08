@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f77d8469-7675-47c7-837b-36fb5ff34035" name="Changes" comment="Переместил результаты первого эксперимента в archive" />
+    <list default="true" id="f77d8469-7675-47c7-837b-36fb5ff34035" name="Changes" comment="Усилил коэффициенты регуляризации">
+      <change beforePath="$PROJECT_DIR$/analysis/plot.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/plot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/build.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/build.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -123,7 +126,15 @@
       <option name="project" value="LOCAL" />
       <updated>1791466854030</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Усилил коэффициенты регуляризации">
+      <option name="closed" value="true" />
+      <created>1791467004204</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1791467004204</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,7 +146,8 @@
     <MESSAGE value="Removed extra data" />
     <MESSAGE value="Обновил логи" />
     <MESSAGE value="Переместил результаты первого эксперимента в archive" />
-    <option name="LAST_COMMIT_MESSAGE" value="Переместил результаты первого эксперимента в archive" />
+    <MESSAGE value="Усилил коэффициенты регуляризации" />
+    <option name="LAST_COMMIT_MESSAGE" value="Усилил коэффициенты регуляризации" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DataAnalysis$fix.coverage" NAME="fix Coverage Results" MODIFIED="1791466050646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/artifacts/logs" />

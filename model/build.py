@@ -4,6 +4,8 @@ from keras.src.applications.mobilenet_v3 import MobileNetV3Large
 from keras.src.applications.mobilenet_v3 import preprocess_input as mobilenet_preprocess_input
 
 from keras.src.layers import GlobalAveragePooling2D, Dense, Dropout, BatchNormalization
+from keras.src.metrics import CategoricalCrossentropy
+
 from keras.src.metrics.f_score_metrics import F1Score
 from keras.src.optimizers import Adam
 
@@ -50,6 +52,6 @@ def create_classification_model(deep_model,
     model.compile(
         optimizer=Adam(learning_rate=learning_rate),
         loss='categorical_crossentropy',
-        metrics=['accuracy', F1Score(average='macro')],
+        metrics=['accuracy', F1Score(average='macro'), CategoricalCrossentropy(name='ce')],
     )
     return model

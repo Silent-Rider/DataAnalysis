@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 
 METRICS_MAP = {
-    'loss': ('функции потерь', 'Функция потерь'),
+    'ce': ('кросс-энтропии', 'Кросс-энтропия'),
     'accuracy': ('точности (Accuracy)', 'Точность'),
     'f1_score': ('F1-меры', 'F1-мера')
 }

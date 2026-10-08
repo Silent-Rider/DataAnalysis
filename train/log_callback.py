@@ -29,9 +29,9 @@ class LogCallback(Callback):
 
         metrics = f"accuracy: {acc:.4f} - val_accuracy: {val_acc:.4f}\n{f1_metric}"
 
-        loss = logs.get('loss', 0.0)
-        val_loss = logs.get('val_loss', 0.0)
-        metrics += f"loss: {loss:.4f} - val_loss: {val_loss:.4f}\n"
+        ce = logs.get('ce', 0.0)
+        val_ce = logs.get('val_ce', 0.0)
+        metrics += f"ce: {ce:.4f} - val_ce: {val_ce:.4f}\n"
 
         log_msg = (
             f"\tEpoch {epoch + 1}/{self.params['epochs']}\n"
