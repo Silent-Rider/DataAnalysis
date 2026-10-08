@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f77d8469-7675-47c7-837b-36fb5ff34035" name="Changes" comment="Removed extra data">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artifacts/logs/Basic.txt" beforeDir="false" afterPath="$PROJECT_DIR$/artifacts/logs/Basic.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artifacts/logs/Dropout.txt" beforeDir="false" afterPath="$PROJECT_DIR$/artifacts/logs/Dropout.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artifacts/logs/DropoutL2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/artifacts/logs/DropoutL2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artifacts/logs/ElasticNetEq.txt" beforeDir="false" afterPath="$PROJECT_DIR$/artifacts/logs/ElasticNetEq.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artifacts/logs/ElasticNetL1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/artifacts/logs/ElasticNetL1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artifacts/logs/ElasticNetL2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/artifacts/logs/ElasticNetL2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artifacts/logs/L1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/artifacts/logs/L1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artifacts/logs/L2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/artifacts/logs/L2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/log_callback.py" beforeDir="false" afterPath="$PROJECT_DIR$/train/log_callback.py" afterDir="false" />
-    </list>
+    <list default="true" id="f77d8469-7675-47c7-837b-36fb5ff34035" name="Changes" comment="Переместил результаты первого эксперимента в archive" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -118,7 +107,23 @@
       <option name="project" value="LOCAL" />
       <updated>1791398810070</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Обновил логи">
+      <option name="closed" value="true" />
+      <created>1791466675634</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1791466675634</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Переместил результаты первого эксперимента в archive">
+      <option name="closed" value="true" />
+      <created>1791466854030</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1791466854030</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,7 +133,9 @@
     <MESSAGE value="Initializing" />
     <MESSAGE value="Removed metadata" />
     <MESSAGE value="Removed extra data" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed extra data" />
+    <MESSAGE value="Обновил логи" />
+    <MESSAGE value="Переместил результаты первого эксперимента в archive" />
+    <option name="LAST_COMMIT_MESSAGE" value="Переместил результаты первого эксперимента в archive" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DataAnalysis$fix.coverage" NAME="fix Coverage Results" MODIFIED="1791466050646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/artifacts/logs" />

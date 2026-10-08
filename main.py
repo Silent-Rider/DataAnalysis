@@ -9,13 +9,13 @@ Path("artifacts/logs").mkdir(parents=True, exist_ok=True)
 
 CONFIGS = {
     "Basic":        (None,         False,   None),
-    "L1":           ("L1",         False,   1e-5),
-    "L2":           ("L2",         False,   1e-5),
-    "ElasticNetL1": ("ElasticNet", False,   (1e-5, 1e-6)),
-    "ElasticNetL2": ("ElasticNet", False,   (1e-6, 1e-5)),
-    "ElasticNetEq": ("ElasticNet", False,   (1e-5, 1e-5)),
+    "L1":           ("L1",         False,   1e-4),
+    "L2":           ("L2",         False,   1e-4),
+    "ElasticNetL1": ("ElasticNet", False,   (1e-4, 1e-5)),
+    "ElasticNetL2": ("ElasticNet", False,   (1e-5, 1e-4)),
+    "ElasticNetEq": ("ElasticNet", False,   (1e-4, 1e-4)),
     "Dropout":      (None,         True,    None),
-    "DropoutL2":    ("L2",         True,    1e-5),
+    "DropoutL2":    ("L2",         True,    1e-4),
 }
 
 if __name__ == "__main__":
