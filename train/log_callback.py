@@ -39,5 +39,5 @@ class LogCallback(Callback):
             f"total time: {int(elapsed_total // 60)} minutes {elapsed_total % 60:.2f} seconds\n\n"
         )
 
-        with open(f'{self.LOG_FOLDER}/{self.file_name}', mode='w') as log_file:
+        with open(f'{self.LOG_FOLDER}/{self.file_name}', mode='a') as log_file:
             log_file.write(log_msg)

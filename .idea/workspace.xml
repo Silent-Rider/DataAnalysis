@@ -4,27 +4,45 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f77d8469-7675-47c7-837b-36fb5ff34035" name="Changes" comment="Removed extra data" />
+    <list default="true" id="f77d8469-7675-47c7-837b-36fb5ff34035" name="Changes" comment="Removed extra data">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifacts/logs/Basic.txt" beforeDir="false" afterPath="$PROJECT_DIR$/artifacts/logs/Basic.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifacts/logs/Dropout.txt" beforeDir="false" afterPath="$PROJECT_DIR$/artifacts/logs/Dropout.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifacts/logs/DropoutL2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/artifacts/logs/DropoutL2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifacts/logs/ElasticNetEq.txt" beforeDir="false" afterPath="$PROJECT_DIR$/artifacts/logs/ElasticNetEq.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifacts/logs/ElasticNetL1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/artifacts/logs/ElasticNetL1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifacts/logs/ElasticNetL2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/artifacts/logs/ElasticNetL2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifacts/logs/L1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/artifacts/logs/L1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifacts/logs/L2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/artifacts/logs/L2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/train/log_callback.py" beforeDir="false" afterPath="$PROJECT_DIR$/train/log_callback.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Silent-Rider"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Silent-Rider&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Silent-Rider/DataAnalysis.git",
-    "accountId": "abc84fa8-d35d-4786-9b62-c54d017505ed"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Silent-Rider/DataAnalysis.git&quot;,
+    &quot;accountId&quot;: &quot;abc84fa8-d35d-4786-9b62-c54d017505ed&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -36,6 +54,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.fix.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
@@ -110,5 +129,8 @@
     <MESSAGE value="Removed metadata" />
     <MESSAGE value="Removed extra data" />
     <option name="LAST_COMMIT_MESSAGE" value="Removed extra data" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DataAnalysis$fix.coverage" NAME="fix Coverage Results" MODIFIED="1791466050646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/artifacts/logs" />
   </component>
 </project>
